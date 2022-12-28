@@ -62,6 +62,7 @@ function SearchMouseOut() {
 let bar = document.querySelector(".barse");
 let arrow = document.querySelector(".fa-arrow-left");
 bar.addEventListener("click" , ()=>{
+    window.scrollTo(0,0);
     let div = document.querySelector(".responsive-nav-bar");
     div.style.left = "0";
 })
